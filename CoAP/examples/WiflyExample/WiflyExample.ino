@@ -19,8 +19,8 @@ SoftwareSerial wifiSerial(2,3);
 WiFly wifly;
 
 /* Change these to match your WiFi network */
-const char mySSID[] = "conn-x";
-const char myPassword[] = "a35527653";
+const char mySSID[] = "ssid";
+const char myPassword[] = "password";
 
 #else
 //Ethernet Libraries
